@@ -6,13 +6,6 @@
       "tech": "John Doe",
       "date": "2020-12-23T19:42:19.476Z",
       "id": 1
-    },
-    {
-      "message": "testing again ",
-      "attention": true,
-      "tech": "Sam Smith",
-      "date": "2020-12-23T19:42:44.670Z",
-      "id": 2
     }
   ],
   "techs": [
