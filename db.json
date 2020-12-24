@@ -6,6 +6,13 @@
       "tech": "John Doe",
       "date": "2020-12-23T19:42:19.476Z",
       "id": 1
+    },
+    {
+      "id": 2,
+      "message": "updating",
+      "attention": false,
+      "tech": "Sam Smith",
+      "date": "2020-12-24T12:16:02.547Z"
     }
   ],
   "techs": [
