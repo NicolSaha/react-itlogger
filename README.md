@@ -2,10 +2,10 @@
 
 ### A big thanks to [Brad Traversy](https://github.com/bradtraversy) for his Udemy course: [**_React Front to Back_**](https://www.udemy.com/course/modern-react-front-to-back/)
 
-## 💭 Live Version
+## 💭 Part Of
 
-- [Live](#)
 - [React Intro](https://react-start.netlify.app/)
+- To test it out clone the repo and test it out for yourself!
 
 ## 🛠 Built with
 
