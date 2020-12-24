@@ -25,6 +25,31 @@ export const getTechs = () => async (dispatch) => {
   }
 };
 
+// ADD TECH
+export const addTech = (tech) => async (dispatch) => {
+  try {
+    setLoading();
+    const res = await fetch('/techs', {
+      method: 'POST',
+      body: JSON.stringify(tech),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+    const data = await res.json();
+
+    dispatch({
+      type: ADD_TECH,
+      payload: data,
+    });
+  } catch (error) {
+    dispatch({
+      type: TECHS_ERROR,
+      payload: error.response.statusText,
+    });
+  }
+};
+
 // SET LOADING TRUE
 export const setLoading = () => {
   return {
